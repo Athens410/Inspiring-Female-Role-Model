@@ -308,6 +308,29 @@ text-align: center;
           adaptiveHeight: true
     });
 
+
+$(document).ready(function(){
+
+
+$(window).on('scroll', function(){
+$('.fade-in').each(function(){
+
+var elementOffset = $(this).offset().top;
+var windowScroll = $(window).scrollTop();
+var windowHeight = $(window).height();
+
+if (windowScroll + windowHeight > elementOffset){
+
+$(this).addClass('show')
+
+}
+
+
+})
+
+
+})
+})
 </script>
 </body>
 </html>
