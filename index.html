@@ -453,6 +453,27 @@ background-color: #1500d4;
 
 
 </div>
+<div class="container fade-in">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center" style="color: #DAA520;">Why Lupita Nyong'o Inspires Me</h2>
+            <p style="color: #ffffff; font-family: 'Inria Serif', serif;">
+                Lupita Nyong'o inspires me through her unwavering dedication to breaking barriers and promoting
+                diversity.
+                Her performances, especially in "12 Years a Slave," reveal a depth of talent that transcends cultural
+                and
+                racial boundaries. Beyond her artistic achievements, her advocacy against colorism and for
+                self-acceptance
+                resonates deeply, reminding me of the importance of embracing one's unique identity. Lupita's commitment
+                to
+                environmental and social justice issues also underscores the power of using one's platform for positive
+                change. She embodies resilience, grace, and the drive to make a difference, making her an enduring role
+                model
+                in my life and for countless others around the world.
+            </p>
+        </div>
+    </div>
+</div>
 
 <div class="container fade-in">
 
@@ -945,7 +966,7 @@ raised awareness about the harmful effects of colorism and encouraged self-accep
    
 </div><!--your-class-->
 <div class="container-fluid">
-    <div class="row">
+    <div class="row justify-content-center">
         <ul class="nav justify-content-center mt-5">
             <li class="nav-item " style="color: #B197FC;">
                 <a class="nav" href="https://www.shecodes.io/" target="_blank" title="SheCodes profile">SheCodes</a>
@@ -1003,7 +1024,8 @@ raised awareness about the harmful effects of colorism and encouraged self-accep
 
 <script>
     $('.your-class').slick();
-
+const year = new Date().getFullYear();
+document.getElementById('copy').textContent = `Copyright ©SheCodes ${year} All Rights Reserved.`;
 $(document).ready(function(){
 
 
